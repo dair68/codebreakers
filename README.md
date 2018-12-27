@@ -12,6 +12,7 @@ Under ‘Enter message:‘  is a space for the user to type in their decrypted m
 Note that this was designed for solving monoalphabetic substitution ciphers. The decoder works best for long messages, meaning it’s most effective on single paragraphs or lengthy quotes, 3 sentences minimum. Any letters the decoder cannot deduce will be displayed with ‘\_’. 
 
 Try copy and pasting this message into it: 
+
 Sy l nlx sr pyyacao l ylwj eiswi upar lulsxrj isr sxrjsxwjr, ia esmm rwctjsxsza sj wmpramh, lxo txmarr jia aqsoaxwa sr pqaceiamnsxu, ia esmm caytra jp famsaqa sj. Sy, px jia pjiac ilxo, ia sr pyyacao rpnajisxu eiswi lyypcor l calrpx ypc lwjsxu sx lwwpcolxwa jp isr sxrjsxwjr, ia esmm lwwabj sj aqax px jia rmsuijarj aqsoaxwa. Jia pcsusx py nhjir sr agbmlsxao sx jisr elh. -Facjclxo Ctrramm 
 
 The decoding is taken care of by the decode module. In short, the module breaks words down into letters patterns and searches a dictionary for all the words that fit those patterns in order to deduce which letters are mapped to which.  
